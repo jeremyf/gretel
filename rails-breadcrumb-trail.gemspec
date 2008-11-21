@@ -1,5 +1,5 @@
 GEM = "rails-breadcrumb-trail"
-VERSION = "0.4.0"
+VERSION = "0.4.2"
 AUTHOR = "Jeremy Friesen"
 EMAIL = "jeremyf@lightsky.com"
 HOMEPAGE = "http://github.com/jeremyf/rails-breadcrumb-trail"
@@ -18,7 +18,7 @@ GEM_SPECIFICATION = Gem::Specification.new do |s|
   
   lib = ["lib/rails_breadcrumb_trail/builder.rb", "lib/rails_breadcrumb_trail/model_extractor.rb", "lib/rails_breadcrumb_trail.rb"]
   bin = []
-  test = ["test/test_harvixture_active_record_extension.rb", "test/test_harvixture_model.rb", "test/test_helper.rb"]
+  test = []
   
   s.files =  lib + bin + test
   s.files += ['README', 'License.txt']
