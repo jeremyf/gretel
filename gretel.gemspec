@@ -1,8 +1,8 @@
-GEM = "rails-breadcrumb-trail"
+GEM = "gretel"
 VERSION = "0.4.2"
 AUTHOR = "Jeremy Friesen"
 EMAIL = "jeremyf@lightsky.com"
-HOMEPAGE = "http://github.com/jeremyf/rails-breadcrumb-trail"
+HOMEPAGE = "http://github.com/jeremyf/gretel"
 SUMMARY = "A rather simple gem for generating breadcrumbs"
 
 GEM_SPECIFICATION = Gem::Specification.new do |s|
@@ -16,7 +16,7 @@ GEM_SPECIFICATION = Gem::Specification.new do |s|
   s.has_rdoc = true
   s.authors = [AUTHOR]
   
-  lib = ["lib/rails_breadcrumb_trail/builder.rb", "lib/rails_breadcrumb_trail/model_extractor.rb", "lib/rails_breadcrumb_trail.rb"]
+  lib = ["lib/gretel/builder.rb", "lib/gretel/model_extractor.rb", "lib/gretel.rb"]
   bin = []
   test = []
   

@@ -1,4 +1,4 @@
-module RailsBreadcrumbTrail
+module Gretel
   module ModelExtractor  
     def self.extract_from_path(path)
       return nil unless path.split('?')[0].match(/\/\d+$/) # There is no singular object at this location

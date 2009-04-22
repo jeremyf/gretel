@@ -1,4 +1,9 @@
-module RailsBreadcrumbTrail
+module Gretel
+  
+  def self.new(*args)
+    Builder.new(*args)
+  end
+  
   # The BreadcrumbTrail is responsible for building a breadcrumb.  This
   # class specializes in extracting paths from the nested URLs.
   #

@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'rake/gempackagetask'
-eval(File.read(File.dirname(__FILE__) + '/rails-breadcrumb-trail.gemspec'))
+eval(File.read(File.dirname(__FILE__) + '/gretel.gemspec'))
 
 Rake::GemPackageTask.new(GEM_SPECIFICATION) do |pkg|
   pkg.gem_spec = GEM_SPECIFICATION
