@@ -21,10 +21,10 @@ GEM_SPECIFICATION = Gem::Specification.new do |s|
   test = []
   
   s.files =  lib + bin + test
-  s.files += ['README']
+  s.files += ['README.textile']
   s.test_files = test
-  s.rdoc_options = ["--main", "README"]
-  s.extra_rdoc_files = ["README"]
+  s.rdoc_options = ["--main", "README.textile"]
+  s.extra_rdoc_files = ["README.textile"]
   s.add_dependency('rails', [">= 2.1.0"])
   s.add_dependency('mocha', [">= 0.5.6"])
   
