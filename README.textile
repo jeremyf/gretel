@@ -28,3 +28,10 @@ A painfully simple tool for generating Rails based breadcrumbs.
   </div>
 </code>
 </pre>
+
+h3. Thank You
+
+Thank you John Nunemaker (http://github.com/jnunemaker) for saying the original name sucked; In hindsight rails-breadcrumb-trail is kind of dumb.
+
+Thank you Erik Runyon (http://github.com/erunyon) for the name.  Much better than what it could have been.
+
